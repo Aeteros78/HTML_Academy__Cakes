@@ -1,30 +1,41 @@
+/* Общие стили */
+
+:root {
+    --text-color-black: #2d2829;
+    --text-color-pink: #f50049;
+}
+
 body {
     font-family: "Playfair Display", serif;
     font-size: 20px;
     line-height: 27px;
-    color: #2d2829;
+    color: var(--text-color-black);
     background-color: #fbebea;
 }
+
+/* Стили header */
 
 .site-navigation-item a {
     font-size: 13px;
     line-height: 16px;
-    color: #2d2829;
+    color: var(--text-color-black);
     text-transform: uppercase;
     text-decoration: none;
 }
 
 .site-navigation-item a.active {
-    color: #f50049;
+    color: var(--text-color-pink);
 }
 
 .phone {
     font-weight: bold;
     font-size: 13px;
     line-height: 16px;
-    color: #2d2829;
+    color: var(--text-color-black);
     text-decoration: none;
 }
+
+/* Секция промо */
 
 .promo h1 {
     font-size: 78px;
@@ -44,13 +55,15 @@ body {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #f50049;
+    background-color: var(--text-color-pink);
 }
 
 .features {
     font-size: 14px;
     line-height: 18px;
 }
+
+/* Секция каталог */
 
 .catalog h2 {
     font-size: 40px;
@@ -65,9 +78,11 @@ body {
 .catalog a {
     font-size: 18px;
     line-height: 24px;
-    color: #2d2829;
+    color: var(--text-color-black);
     text-decoration: none;
 }
+
+/* Секция ревью */
 
 .reviews h2 {
     font-size: 40px;
@@ -84,6 +99,8 @@ body {
     font-size: 25px;
     line-height: 33px;
 }
+
+/* Секция адвантейдж */
 
 .advantages {
     background-image: url("/images/berries.png");
@@ -109,6 +126,8 @@ body {
     line-height: 27px;
 }
 
+/* Секция контакты */
+
 .contacts h2 {
     font-size: 40px;
     line-height: 66px;
@@ -124,13 +143,15 @@ body {
 }
 
 .contact-item a {
-    color: #2d2829;
+    color: var(--text-color-black);
     text-decoration: none;
 }
 
 .social-item {
     background-color: #ffffff;
 }
+
+/* секция footer */
 
 .main-footer {
     color: #888888;
@@ -140,7 +161,7 @@ body {
 .footer-navigation-item a {
     font-size: 13px;
     line-height: 16px;
-    color: #2d2829;
+    color: var(--text-color-black);
     text-decoration: none;
 }
 
