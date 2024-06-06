@@ -11,6 +11,7 @@ body {
     line-height: 27px;
     color: var(--text-color-black);
     background-color: #fbebea;
+    margin: 0;
 }
 
 /* Стили header */
@@ -61,6 +62,14 @@ body {
 .features {
     font-size: 14px;
     line-height: 18px;
+}
+
+/* Стили main */
+
+main {
+    width: 1140px;
+    padding: 0 70px;
+    margin: 0 auto;
 }
 
 /* Секция каталог */
@@ -128,14 +137,53 @@ body {
 
 /* Секция контакты */
 
+.contacts {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.contacts-map {
+    width: 760px;
+}
+
+.contacts-content {
+    width: 340px;
+    padding-top: 20px;
+}
+
+.contact-item {
+    margin-bottom: 20px;
+}
+
 .contacts h2 {
     font-size: 40px;
     line-height: 66px;
+    margin: 0;
+    margin-bottom: 45px;
 }
 
 .contact-item h3 {
     font-size: 20px;
     line-height: 27px;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
 .contact-item address {
@@ -145,10 +193,26 @@ body {
 .contact-item a {
     color: var(--text-color-black);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
 }
 
 .social-item {
     background-color: #ffffff;
+    margin-right: 25px;
+}
+
+.contact-item a:hover {
+    color: rgba(45, 40, 41, 0.7);
+}
+
+.contact-item a:active {
+    color: rgba(45, 40, 41, 0.5);
 }
 
 /* секция footer */
